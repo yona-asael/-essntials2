@@ -31,5 +31,8 @@ public class Light {
         this.intenesntiy = intenesntiy;
     }
 
+    public void checkStatusLight(){
+        System.out.println(String.format("The light intensity is %s is turn on? %s", this.intenesntiy.toPlainString(), this.isOn));
+    }
 
 }
